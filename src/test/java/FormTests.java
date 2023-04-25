@@ -41,6 +41,20 @@ public class FormTests {
         $("#city").click();
         $("#stateCity-wrapper").$(byText("Delhi")).click();
         $("#submit").click();
+
+        $("#example-modal-sizes-title-lg").shouldHave(text("Thanks for submitting the form"));
+        $(".table-responsive").shouldHave(text("Ilya Erofeev"),
+                text("imerofeev@inbox.ru"),
+                text("Other"),
+                text("1204256461"),
+                text("26 September,1984"),
+                text("MTG"),
+                text("Reading"),
+                text("photo.jpg"),
+                text("Tver"),
+                text("NCR Delhi"));
+
+        $("#closeLargeModal").click();
     }
 
 }
