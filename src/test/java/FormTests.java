@@ -32,7 +32,7 @@ public class FormTests {
         $(".react-datepicker__month-select").selectOption("September");
         $(".react-datepicker__year-select").selectOption("1984");
         $(".react-datepicker__day--026:not(.react-datepicker__day--outside-month)").click();
-        $("#subjectsInput").setValue("MTG").pressEnter();
+        $("#subjectsInput").setValue("Computer Science").pressEnter();
         $("#hobbiesWrapper").$(byText("Reading")).click();
         $("#uploadPicture").uploadFile(new File("src/test/resources/img/photo.jpg"));
         $("#currentAddress").setValue("Tver");
@@ -48,7 +48,7 @@ public class FormTests {
                 text("Other"),
                 text("1204256461"),
                 text("26 September,1984"),
-                text("MTG"),
+                text("Computer Science"),
                 text("Reading"),
                 text("photo.jpg"),
                 text("Tver"),
