@@ -14,7 +14,7 @@ public class HoverTests {
     }
 
     @Test
-    void GithubHover() {
+    void githubHover() {
         open("https://github.com");
         $$(".HeaderMenu-link").findBy(text("Solutions")).hover();
         $$(".HeaderMenu-dropdown-link").findBy(text("Enterprise")).click();
