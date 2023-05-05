@@ -29,5 +29,11 @@ public class Main {
         System.out.println("Max value of int: " + e);
         int f = 1;
         System.out.println("Overflow result: " + (e + f) + "\n");
+
+        int g = 8;
+        double h = 5.5;
+        System.out.println("g + h = " + (g + h));
+        System.out.println("g / h = " + (g / h));
+        System.out.println("g * h = " + (g * h) + "\n");
     }
 }
