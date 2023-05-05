@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/getting-started-java.test.iml" filepath="$PROJECT_DIR$/.idea/modules/getting-started-java.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/qa.guru-hw.main.iml" filepath="$PROJECT_DIR$/.idea/modules/qa.guru-hw.main.iml" />
     </modules>
   </component>
 </project>

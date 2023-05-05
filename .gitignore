@@ -1,0 +1,8 @@
+.build
+.idea
+.gradle
+.allure
+build
+video
+out
+allure-results
