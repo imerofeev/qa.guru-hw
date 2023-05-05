@@ -24,5 +24,10 @@ public class Main {
         System.out.println("Logical 'and': " + (c && d));
         System.out.println("Logical 'or': " + (d || c));
         System.out.println("Logical 'not': " + !c + "\n");
+
+        int e = Integer.MAX_VALUE;
+        System.out.println("Max value of int: " + e);
+        int f = 1;
+        System.out.println("Overflow result: " + (e + f) + "\n");
     }
 }
